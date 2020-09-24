@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gayathri', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+.logo{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    color: white;
+}
+
+.logo .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.logo .container h3{
+    font-size: 28px;
+    font-weight: bold;
+    border: 4px solid white;
+    border-radius: 25px;
+    padding: 7px;
+    text-transform: capitalize;
+}
+
+.header{
+    width: 100%;
+    height: 750px;
+    background-image: url(img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.header .container{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header .container h1{
+    background-color: #ffbf00;
+    font-size: 128px;
+    padding: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: whitesmoke;
+}
+
+.nav .container{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav ul li{
+    display: inline-block;
+    transition: all 0.5s ;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.5s ;
+    padding: 0 20px;
+}
+
+.nav ul li:hover{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav ul li a:hover{
+    color: orangered;
+}
+
+.mario{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.mario .container{
+    width: 65%;
+    height: 400px;
+}
+.mario .container h1{
+    font-size: 40px;
+    color: red;
+    margin: 15px 0px;
+}
+
+.mario .container p{
+    font-size: 23px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.mario .container p span{
+    font-weight: 800;
+}
+
+.img{
+     width: 100%;
+    height: 215px;
+    margin-top: 40px;
+}
+
+.img .container {
+    width: 60%;
+    height: 215px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.img .container img{
+    max-width: 42%;
+}
+
+.join{
+    width: 100%;
+    height: 250px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+}
+
+.join .container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join .container h1{
+    text-transform: capitalize;
+    color: #333;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.join .container p{
+    color: #444;
+    font-size: 19px;
+    margin: 20px 0;
+}
+
+.join .container input{
+    padding: 5px 15px;
+    font-size: 20px;
+    color: #666;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px ;
+}
+
+.copy{
+    width: 100%;
+    height: 80px;
+    background-color: #F64747;
+    color: white;
+    font-size: 18px;
+}
+
+.copy .container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+background-image: linear-gradient(135deg, #82afff 0%, rgba(222, 54, 180, 0.8) 100%);
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
